@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  margin: 0;
+  background-image: url("https://wallpaperaccess.com/full/2033988.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+
+.plate {
+  padding: 2em;
+  border-radius: 25px;
+  height: 290px;
+  width: 250px;
+  margin: 1em;
+  max-width: 400px;
+  max-height: fit-content;
+  min-height: auto;
+  min-width: auto;
+  opacity: 0.8;
+  background-color: azure;
+  font-family: "Open Sans", sans-serif;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+}
+
+/* button {
+  position: center;
+  margin: 0.1em;
+  border-radius: 45%;
+  border: none;
+  height: 35px;
+  width: 35px;
+  outline: none;
+  background: #434040a3;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+} */
+
+input.search-field {
+  padding: 0.5em 0.5em;
+  font-family: "Open Sans", sans-serif;
+  font-size: 80%;
+  border-radius: 10px;
+  background: aliceblue;
+}
+
+.status {
+  line-height: 0.7em;
+}
